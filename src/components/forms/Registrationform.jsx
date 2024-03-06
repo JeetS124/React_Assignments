@@ -1,5 +1,5 @@
 import React from 'react'
-import { useFormik, validateYupSchema } from 'formik'
+import { useFormik } from 'formik'
 import { signUpSchema } from '../../schemas';
 
 const initialValues = {
